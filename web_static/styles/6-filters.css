@@ -37,43 +37,49 @@ button:hover{
 	float: left;
 	margin-left: 30px;
 }
-h3{
-	font-weight: 600;
-	margin: 0;
-	padding: 0;
-	margin-top: 16px;
+.amenities h3, .locations h3{
+    margin: 0px;
+    margin-top: 15px;
+    padding: 0px;
+    padding-left: 30px;
+    font-weight: 600;
 }
-h4{
-    margin: 0;
+.amenities h4, .locations h4{
+    margin: 0px;
     padding: 0px;
     font-weight: 400;
     font-size: 14px;
+    padding-left: 30px;
 }
 .popover{
-	background-color: #FAFAFA;
-	visibility: hidden;
-	border: solid 1px #DDDDDD;
-	border-radius: 4px;
-	margin-top: 20px;
+    visibility: hidden;
+    background-color: #FAFAFA;
+    border: solid 1px #DDDDDD;
+    border-radius: 4px;
+    margin-top: 20px;
 }
 .popover li h2{
-	font-size: 16px;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
 }
 .popover_items{
-	padding-left: 10%;
-}
-ul{
-	list-style: none;
-	padding-top: 30px;
+    margin: 0px;
+    padding: 0px;
+    padding-left: 10%;
 }
 li{
-	list-style-type: none;
-	padding-bottom: 10%;
+    list-style-type: none;
+    padding-bottom: 10%;
 }
-.location:hover > .popover{
-	visibility: visible;
-	margin-bottom: 50px;
+ul{
+    list-style: none;
+    padding-top: 30px;
+}
+.locations:hover > .popover{
+    visibility: visible;
+    margin-bottom: 50px;
 }
 .amenities:hover > .popover{
-	visibility: visible;
+    visibility: visible;
 }
